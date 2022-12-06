@@ -32,5 +32,5 @@ Now, the class is accessible to other files
 ```python
     #anotherfile.py
     from .myfile import NewClass
-    instance.function("new user") # hello there, new user
+    NewClass().function("new user") # hello there, new user
 ``` 
